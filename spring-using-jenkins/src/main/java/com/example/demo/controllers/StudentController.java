@@ -12,7 +12,7 @@ public class StudentController {
 	
 	@GetMapping("/api/v1/students")
 	public List<String> getNames(){
-		return Arrays.asList("Ram","Shyam");
+		return Arrays.asList("Ram","Shyam","Aneesh");
 	}
 	
 
